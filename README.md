@@ -2,6 +2,8 @@
 
 A robust data pipeline for extracting, transforming, and loading NASA's Astronomy Picture of the Day (APOD) data.
 
+![Pipeline Diagram](./pipeline.png)
+
 ## 🔧 Technologies Used
 
 - **Apache Airflow**: Workflow orchestration and task scheduling
@@ -12,6 +14,8 @@ A robust data pipeline for extracting, transforming, and loading NASA's Astronom
 - **NASA APOD API**: Data extraction source
 - **pytest**: Testing framework for DAG validation
 
+![Airflow Workflow](./Airflow.png)
+
 ## 🚀 Key Features
 
 - Daily automated data ingestion from NASA's APOD API
@@ -20,5 +24,3 @@ A robust data pipeline for extracting, transforming, and loading NASA's Astronom
 - Airflow-powered workflow with retry mechanisms
 - Comprehensive DAG testing suite
 - Containerized environment for easy deployment
-
-
